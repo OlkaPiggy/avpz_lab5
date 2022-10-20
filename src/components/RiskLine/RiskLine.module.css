@@ -1,0 +1,61 @@
+.flex {
+    display: flex;
+}
+
+.text {
+    width: 500px;
+    align-items: center;
+    grid-column-gap: 30px;
+    margin: 0 10px;
+}
+
+.line {
+    background-color: var(--yellow);
+    font-size: 20px;
+    height: 80px;
+    box-shadow: black 3px 3px 10px;
+    margin: 20px auto;
+    padding: 10px 30px;
+}
+
+.inputs {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.inputs input {
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    margin: 0 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.average {
+    height: 34px;
+    padding: 5px;
+    margin: 13px 0 13px 20px;
+    align-content: center;
+    text-align: center;
+    border: 2px solid var(--white);
+}
+
+.riskDiv {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.riskDiv > input {
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+    margin: 0 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green);
+}

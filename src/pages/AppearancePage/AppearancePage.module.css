@@ -1,0 +1,27 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+.button {
+    font-size: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    box-shadow: black 3px 3px 10px;
+    margin: 20px 30px;
+    cursor: pointer;
+    transition: color 300ms, background-color 300ms;
+}
+
+.button:hover {
+    color: black;
+    background-color: var(--white);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}

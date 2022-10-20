@@ -1,0 +1,33 @@
+body {
+    background-color: var(--red);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.problem {
+    height: 60px;
+    width: 800px;
+    background-color: var(--yellow);
+    margin: 10px 30px 30px;
+    font-size: 20px;
+    box-shadow: black 3px 3px 10px;
+    padding: 10px;
+}
+
+.tip {
+    height: 70px;
+    width: 600px;
+
+}
+
+select {
+    height: 50px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: var(--green);
+    box-shadow: black 3px 3px 10px;
+}

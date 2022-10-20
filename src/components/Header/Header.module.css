@@ -1,0 +1,19 @@
+header {
+    height: 12vh;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    position: fixed;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.links [class="active"] {
+    color: var(--green);
+}

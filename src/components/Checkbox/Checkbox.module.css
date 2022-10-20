@@ -1,0 +1,18 @@
+.checkbox {
+    display: flex;
+    height: 50px;
+    width: 80vw;
+    background-color: var(--yellow);
+    margin: 20px auto;
+    color: black;
+    align-items: center;
+    font-size: 20px;
+    padding: 0 60px;
+    justify-content: space-between;
+    box-shadow: black 3px 3px 10px;
+}
+
+input[type="checkbox"]:checked,  input[type="checkbox"]:not(:checked){
+    width: 20px;
+    height: 20px;
+}
