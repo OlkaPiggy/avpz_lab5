@@ -6,8 +6,10 @@ const Checkbox = ({item, change}) => {
 
     return (
         <div className={css.checkbox}>
-            <label>{item.text}</label>
-            <input type={'checkbox'} onChange={changeItem} checked={item.value}></input>
+            <label >
+                <input type={'checkbox'} onChange={changeItem} checked={item.value}></input>
+                <div>{item.text}</div>
+            </label>
         </div>
     );
 };

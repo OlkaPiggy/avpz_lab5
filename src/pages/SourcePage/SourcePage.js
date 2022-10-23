@@ -34,7 +34,9 @@ const SourcePage = () => {
 
     return (
         <div>
-            {sources.map(source => <Checkbox item={source} key={source.text} change={change}/>)}
+            <div className={css.show}>
+                {sources.map(source => <Checkbox item={source} key={source.text} change={change}/>)}
+            </div>
             <div className={css.sum}>{sum}</div>
         </div>
     );

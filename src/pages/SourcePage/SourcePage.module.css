@@ -1,12 +1,22 @@
 .sum {
     width: 100px;
     height: 40px;
-    background-color: #F8F7FF;
+    background-color: var(--yellow);
     font-size: 30px;
     text-align: center;
-    bottom: 50px;
+    top: 110px;
     right: 20px;
     position: fixed;
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid #d9dbdf;
+
+
+}
+
+.show {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
 }
