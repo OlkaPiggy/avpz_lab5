@@ -3,13 +3,16 @@
 }
 
 .costDiv {
-    width: 90%;
+    width: 80%;
     background-color: var(--yellow);
     font-size: 20px;
     height: 120px;
-    box-shadow: black 3px 3px 10px;
+    /*box-shadow: black 3px 3px 10px;*/
+    border: 1px solid #d9dbdf;
+    border-radius: 10px;
     margin: 20px auto;
     padding: 10px 30px;
+    border-top: 5px solid #673ab6;
 }
 
 .title {
@@ -22,28 +25,17 @@
     text-align: center;
     margin-bottom: 10px;
     margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid #d9dbdf;
+    background-color: var(--red);
 }
 
-.gBefore {
-    background-color: var(--green);
+.gBefore, .gAfter {
     margin-right: 60px;
 }
 
 .gAfter {
-    background-color: var(--red);
-    margin-right: 60px;
-}
-
-.before, .after {
-    background-color: var(--white);
-}
-
-.before {
     border: 2px solid var(--green);
-}
-
-.after {
-    border: 2px solid var(--red);
 }
 
 .numbers {

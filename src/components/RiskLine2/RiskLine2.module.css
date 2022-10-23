@@ -5,9 +5,10 @@
     margin: auto 5px;
     padding: 5px;
     text-align: center;
-    border: none;
-    border-radius: 5px;
-    background-color: #F8F7FF;
+    border-radius: 10px;
+    background-color: var(--red);
+    border: 1px solid #d9dbdf;
+
 }
 
 .status {

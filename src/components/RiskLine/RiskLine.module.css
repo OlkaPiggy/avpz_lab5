@@ -2,8 +2,6 @@
     display: flex;
 }
 
-
-
 .text {
     width: 500px;
     align-items: center;
@@ -39,6 +37,7 @@
     margin: 0 5px;
     text-align: center;
     border: 1px solid #d9dbdf;
+    background-color: var(--red);
     border-radius: 10px;
 }
 
