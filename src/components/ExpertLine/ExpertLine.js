@@ -33,7 +33,7 @@ const ExpertLine = ({expert, mas, is}) => {
         <div className={`${css.flex} ${css.line} ${css2.line}`}>
             <div className={`${css.flex} ${css.text}`}>
                 <div>#</div>
-                <div>{expert.title}</div>
+                <div className={css.title}>{expert.title}</div>
             </div>
             <div className={css.inputs}>
                 {mas.map(value => <input

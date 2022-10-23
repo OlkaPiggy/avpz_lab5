@@ -17,7 +17,7 @@ const AppearancePage = () => {
                 <button className={css.button} onClick={() => {
                     setTrigger(true);
                     window.scroll({top: 0});
-                }}>Рахувати
+                }}>Обчислити
                 </button>
             </div>
         </div>
