@@ -1,10 +1,19 @@
 :root {
+    --blue: #0585d3;
+    --green: #10d9b1;
+    --yellow: #d3950b;
+    --red: #c41e26;
+    --white: #F8F7FF;
+}
+
+/*
+:root {
     --blue: #4C86A8;
     --green: #69A197;
     --yellow: #FFD166;
     --red: #E0777D;
     --white: #F8F7FF;
-}
+} */
 
 * {
     margin: 0;
