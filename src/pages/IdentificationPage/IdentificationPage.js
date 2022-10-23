@@ -3,6 +3,8 @@ import {Checkbox} from '../../components';
 
 import {todoActions} from '../../store/text.slice';
 
+import css from './IdentificationPage.module.css'
+
 const {changeValueI} = todoActions;
 
 const IdentificationPage = () => {
@@ -12,7 +14,7 @@ const IdentificationPage = () => {
     const change = (id) => dispatch(changeValueI({id}));
 
     return (
-        <div>
+        <div className={css.show}>
             {identifications.map(identification => <Checkbox item={identification} key={identification.id} change={change}/>)}
         </div>
     );
