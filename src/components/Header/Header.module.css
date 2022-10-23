@@ -16,7 +16,5 @@ a {
 
 .links [class="active"] {
     color: var(--white);
-    /*color: var(--green);*/
-    font-weight: bold;
     text-decoration: underline;
 }
