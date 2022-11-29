@@ -5,9 +5,9 @@
     margin: auto 5px;
     padding: 5px;
     text-align: center;
-    border-radius: 10px;
     background-color: var(--red);
-    border: 1px solid #d9dbdf;
+    border-radius: 0px;
+    border: 1px solid #000000;
 
 }
 

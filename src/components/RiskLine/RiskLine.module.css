@@ -15,8 +15,8 @@
     font-size: 20px;
     height: 80px;
     /*box-shadow: black 3px 3px 10px;*/
-    border: 1px solid #d9dbdf;
-    border-radius: 10px;
+    border-radius: 0px;
+    border: 1px solid #000000;
     vertical-align: middle;
     transition: background-color ease-in-out 300ms;
 
@@ -36,9 +36,9 @@
     font-size: 16px;
     margin: 0 5px;
     text-align: center;
-    border: 1px solid #d9dbdf;
+    border-radius: 0px;
+    border: 1px solid #000000;
     background-color: var(--red);
-    border-radius: 10px;
 }
 
 .average {
@@ -48,8 +48,8 @@
     align-content: center;
     text-align: center;
     background-color: var(--white);
-    border: 2px solid var(--white);
-    border-radius: 10px;
+    border-radius: 0px;
+    border: 1px solid #000000;
 }
 
 .riskDiv {
@@ -65,7 +65,7 @@
     margin: 0 5px;
     text-align: center;
     border: none;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: var(--green);
 }
 

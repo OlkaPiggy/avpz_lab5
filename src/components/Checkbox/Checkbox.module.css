@@ -1,22 +1,22 @@
 .checkbox {
     display: flex;
-    height: 70px;
-    width: 40vw;
+    height: 40px;
+    width: 80vw;
     background-color: var(--yellow);
-    margin: 20px 10px;
+    margin: 0px 10px;
     color: #202124;
     align-items: center;
     font-size: 20px;
 
-    border: 1px solid #d9dbdf;
-    border-radius: 10px;
+    border-radius: 0px;
+    border: 1px solid #000000;
     vertical-align: middle;
     transition: background-color ease-in-out 300ms;
 }
 
 label {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 label > input{ /* HIDE RADIO */

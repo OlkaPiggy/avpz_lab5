@@ -14,9 +14,9 @@ body {
 
     font-size: 20px;
     background-color: var(--yellow);
-    border: 1px solid #d9dbdf;
-    border-top: 5px solid #673ab6;
-    border-radius: 10px;
+    border-radius: 0px;
+    border: 1px solid #000000;
+    border-top: 5px solid #ffffff;
     padding: 10px;
 }
 
@@ -29,8 +29,8 @@ body {
 select {
     height: 50px;
     width: 600px;
-    border-radius: 10px;
+    border-radius: 0px;
+    border: 1px solid #000000;
     font-size: 20px;
     background-color: var(--yellow);
-    border: 1px solid #d9dbdf;
 }
